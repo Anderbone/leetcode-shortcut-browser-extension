@@ -1,0 +1,21 @@
+{
+
+	"manifest_version": 2,
+	"name": "leetcode-shortcut",
+	"version": "1.0",
+  
+	"description": "leetcode submit shortcut",
+  
+	"icons": {
+	  "48": "icons/logo-leetcode.svg"
+	},
+  
+	"content_scripts": [
+	  {
+		"matches": ["*://*.leetcode.com/problems/*"],
+		"js": ["shortcut.js"]
+	  }
+	]
+  
+  }
+  
