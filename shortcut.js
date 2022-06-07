@@ -12,8 +12,8 @@ document.onkeyup = function (e) {
 	else if (e.ctrlKey && e.key === ';') {
 		document.querySelectorAll('.example-testcases__3q5c')[0].click()
 	}
-	// ctrl + m to retrieve the last submission
-	else if (e.ctrlKey && e.key === 'm') {
+	// ctrl + atl + m to retrieve the last submission
+	else if (e.ctrlKey && e.altKey && e.key === 'm') {
 		document.querySelectorAll('.tool-button__2cBA')[1].click();
 		document.evaluate("//div[contains(text(),'replaced with your last submission')]", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue.nextSibling.childNodes[1].click();
 	}
