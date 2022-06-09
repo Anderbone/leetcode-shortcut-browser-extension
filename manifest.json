@@ -10,10 +10,6 @@
 	  "48": "icons/logo-leetcode.svg"
 	},
 
-	"permissions": [
-		"activeTab"
-	  ],
-
 	"host_permissions": [
 	"https://www.leetcode.com/"
 	],
