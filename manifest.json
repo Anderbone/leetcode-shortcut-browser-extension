@@ -7,7 +7,7 @@
 	"description": "leetcode shortcuts",
   
 	"icons": {
-	  "48": "icons/logo-leetcode.svg"
+	  "48": "icons/leetcode_logo.png"
 	},
 
 	"host_permissions": [
