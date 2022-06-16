@@ -1,9 +1,11 @@
 # leetcode-shortcut-browser-extension
 leetcode shortcut
 
-icon is from: https://icon-icons.com/icon/leetcode-logo/145113
+[icon](https://icon-icons.com/icon/leetcode-logo/145113)
  	 
-Firefox: https://addons.mozilla.org/en-US/firefox/addon/leetcode-shortcut/ 	
+[Firefox](https://addons.mozilla.org/en-US/firefox/addon/leetcode-shortcut/)
+
+[Chrome](https://chrome.google.com/webstore/detail/leetcode-shortcuts/ipdbhbmdmldjkdjfbkdnipjmokkinnci?hl=en-GB)
 
 | description      | shortcut |
 | ----------- | ----------- |
