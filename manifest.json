@@ -1,12 +1,15 @@
 {
-	"manifest_version": 2,
+	"manifest_version": 3,
 	"name": "leetcode-shortcuts",
 	"version": "1.13.1.1",
 	"description": "leetcode shortcuts",
 	"icons": {
-		"48": "icons/logo-leetcode.svg"
+		"48": "icons/leetcode_logo.png"
 	},
-	"browser_action": {
+	"host_permissions": [
+		"https://www.leetcode.com/"
+	],
+	"action": {
 		"default_icon": "icons/leetcode_logo.png",
 		"default_title": "Leetcode shortcuts",
 		"default_popup": "shortcut.html"
