@@ -6,9 +6,6 @@
 	"icons": {
 		"48": "icons/leetcode_logo.png"
 	},
-	"host_permissions": [
-		"https://www.leetcode.com/"
-	],
 	"action": {
 		"default_icon": "icons/leetcode_logo.png",
 		"default_title": "Leetcode shortcuts",
