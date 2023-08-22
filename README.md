@@ -8,7 +8,7 @@ leetcode shortcut [icon link](https://icon-icons.com/icon/leetcode-logo/145113)
 | description      | shortcut |
 | ----------- | ----------- |
 | Submit      | Ctrl + Enter         |
-| Run with example test cases   | Ctrl + ;         |
+| Run with example test cases   | Ctrl + '     |
 |Retrieve last submitted| Ctrl + Atl + m|
 |Reset to default (clear)|Ctrl + Alt + l  |
 
