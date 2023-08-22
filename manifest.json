@@ -1,12 +1,12 @@
 {
-	"manifest_version": 3,
+	"manifest_version": 2,
 	"name": "leetcode-shortcuts",
 	"version": "1.13.1.2",
 	"description": "leetcode shortcuts",
 	"icons": {
 		"48": "icons/leetcode_logo.png"
 	},
-	"action": {
+	"browser_action": {
 		"default_icon": "icons/leetcode_logo.png",
 		"default_title": "Leetcode shortcuts",
 		"default_popup": "shortcut.html"
