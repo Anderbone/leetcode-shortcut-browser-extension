@@ -20,9 +20,9 @@ if (currentUrl.includes("leetcode.com/problems/")) {
 		// ctrl + atl + m to retrieve the last submission
 		else if (e.ctrlKey && e.altKey && e.key === 'm') {
 			document.evaluate ('//*[@id="editor"]/div[2]/div[2]/div/div[2]/button', document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue.click();
-			waitForElm("button.text-label-r:nth-child(1)").then((elm) => {
+			if (e.ctrlKey && e.altKey && e.key === 'm'){
 				document.evaluate("//button[contains(text(),'Confirm')]", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue.click() 
-			});
+			}
 		}
 	}
 }else if (currentUrl.includes("leetcode.com/explore")){
