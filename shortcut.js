@@ -7,8 +7,9 @@ if (currentUrl.includes("leetcode.com/problems/")) {
 			document.querySelector('[data-e2e-locator="console-submit-button"]').click()
 		}
 		// ctrl + atl + l to clean
+		
 		else if (e.ctrlKey && e.altKey && e.key === 'l') {
-			document.evaluate ('//*[@id="editor"]/div[2]/div[2]/div/div[3]/button', document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue.click();
+			document.evaluate ('/html/body/div[1]/div[2]/div/div/div[2]/div/div/div[10]/div/div[1]/div[2]/button[4]', document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue.click();
 			waitForElm("button.text-label-r:nth-child(1)").then((elm) => {
 				document.evaluate("//button[contains(text(),'Confirm')]", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue.click() 
 			});
@@ -19,7 +20,7 @@ if (currentUrl.includes("leetcode.com/problems/")) {
 		}
 		// ctrl + atl + m to retrieve the last submission
 		else if (e.ctrlKey && e.altKey && e.key === 'm') {
-			document.evaluate ('//*[@id="editor"]/div[2]/div[2]/div/div[2]/button', document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue.click();
+			document.evaluate ('/html/body/div[1]/div[2]/div/div/div[2]/div/div/div[10]/div/div[1]/div[2]/button[3]', document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue.click();
 			waitForElm("button.text-label-r:nth-child(1)").then((elm) => {
 				document.evaluate("//button[contains(text(),'Confirm')]", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue.click() 
 			});
